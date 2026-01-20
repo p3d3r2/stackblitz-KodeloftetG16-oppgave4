@@ -1,11 +1,11 @@
 /* -- VARIABLES --  */
 :root {
   /* Farge variabler */
-  --primaryColor: #fcc388ff; /* Peach */
-  --secondaryColor: #ffc5c9ff; /* Tea rose red*/
-  --accentColor: #ffffd1ff; /* Cream */
-  --accentColorTwo: #fee5d0ff; /* Champagne pink*/
-  --accentColorThree: #fff6edff; /* Seashell */
+  --primaryColor: #fcc4fc84ff; /* Peach */
+  --secondaryColor: #ffc6ffc9ff; /* Tea rose red*/
+  --accentColor: #abab66; /* Cream */
+  --accentColorTwo: rgb(18, 158, 233); /* Champagne pink*/
+  --accentColorThree: rgb(49, 100, 63); /* Seashell */
 
   /* Størrelse variabler */
   --smallSpace: 8px;
@@ -15,7 +15,7 @@
 
   /* Skrift variabler */
   --fontFamily: "Roboto";
-  --fontSize: 18px;
+  --fontSize: 16px;
 }
 
 /* -- GLOBAL -- */
@@ -36,11 +36,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  border-bottom: 1px solid seagreen;
-  box-shadow: 2px 2px 20px 2px seagreen;
+  border-bottom: 1px solid rgb(46, 116, 139);
+  box-shadow: 2px 2px 20px 2px rgb(46, 79, 139);
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -65,7 +65,7 @@ main {
   align-items: center;
   justify-content: center;
 
-  background-color: rgba(46, 139, 86, 0.656);
+  background-color: rgba(94, 154, 194, 0.656);
 }
 
 .section {
@@ -81,7 +81,7 @@ main {
 
   background-color: white;
   border: 1px solid gray;
-  box-shadow: 2px 2px 20px 2px seagreen;
+  box-shadow: 2px 2px 20px 2px rgb(46, 116, 139);
 }
 
 .shoppingForm {
@@ -104,13 +104,13 @@ main {
   height: 25px;
   border: none;
   border-radius: 10px;
-  background-color: seagreen;
+  background-color: rgb(120, 193, 222);
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
 
 .shoppingButton:hover {
-  background-color: rgba(46, 139, 86, 0.656);
+  background-color: rgba(46, 133, 139, 0.656);
 }
 
 .shoppingList {
@@ -134,8 +134,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid seagreen;
-  box-shadow: 2px 2px 20px 2px seagreen;
+  border-top: 1px solid rgb(46, 96, 139);
+  box-shadow: 2px 2px 20px 2px rgb(46, 88, 139);
   padding: 16px;
 }
 
